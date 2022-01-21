@@ -1,0 +1,60 @@
+.header {
+  margin: 26px 0 50px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 108px;
+  }
+
+  &__logo-img {
+    width: 100%;
+  }
+
+  &__menu {
+    margin-bottom: 12px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__menu-item {
+    margin-right: 44px;
+  }
+
+  &__menu-link {
+    text-decoration: none;
+    padding-bottom: 5px;
+    &:hover {
+      font-weight: bold;
+      border-bottom: 2px solid $color-orangd1a;
+      cursor: pointer;
+    } 
+    &_orange {
+      width: 40px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: $color-orangd1a;
+      border-radius: 5px;
+      padding: 6px;
+    }
+  }
+
+  &__btn-login {
+    background-color: $color-white;
+    border: 1px solid #DA5D1A;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-right: 35px;
+    &:hover {      
+      font-weight: bold;
+      border-bottom: 2px solid $color-orangd1a;
+      cursor: pointer;
+    }
+  }
+
+}

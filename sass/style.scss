@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+@import 'variables';
+@import 'fontstyle';
+@import 'buttons';
+@import 'header';
+@import 'hero-area';
+@import 'picking';
+@import 'discount';
+@import 'product';
+@import 'testimonials';
+@import 'footer';
+
+
+body {
+  background-color: $color-white;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

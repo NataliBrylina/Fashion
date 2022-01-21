@@ -1,0 +1,63 @@
+.picking {
+  background-color: $color-white;
+  margin-top: 130px;
+
+
+  &__subtitle {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 50%;
+    text-align: center;
+  }
+
+  &__list {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 31.5%;
+    padding: 40px 30px;
+    min-height: 310px;
+    border: 1px solid rgba(218, 93, 26, 0.3);
+    border-radius: 5px;
+    &:hover {
+      border: 1px solid $color-orangd1a; 
+    }
+  }
+
+  &__item-icon{
+    height: 60px;
+    text-align: center;
+  }
+
+  &__item-title {
+    margin-top: 23px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 140%;
+  }
+
+  &__item-descr {
+    margin-top: 20px;
+    text-align: center;    
+  }
+
+  &__btn-wrapper {
+    text-align: center;
+  }
+
+  &__btn {
+    margin-top: 50px;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+      border-bottom: 1px solid $color-orangd1a;
+    }
+  }
+
+}

@@ -1,0 +1,42 @@
+.hero-area {
+  width: 1480px;
+  min-height: 700px;
+  background-color: rgba(211,117,52,0.2);
+  padding: 66px 0 155px 0;
+  margin: 0 auto;
+  position: relative;
+
+  &__wrapper-block-text {
+    width: 36%;
+    margin-top: 15px;
+  }
+
+  &__subtitle {
+    margin-top: 5px;
+  }
+
+  &__descr {
+    margin-top: 26px;
+  }
+
+  &__btn {
+    margin-top: 47px;
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+      border-bottom: 1px solid $color-orangd1a;
+    }
+  }
+
+  &__wrapper-img {
+    position: absolute;
+    right: 4%;
+    top: 66px;
+    width: 54%;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+}

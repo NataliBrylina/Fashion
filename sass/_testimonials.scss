@@ -1,0 +1,60 @@
+.testimonials {
+  margin-top: 130px;
+  padding: 100px 0;
+  background-color: rgba(204, 97, 84, 0.1);
+
+  &__slider {
+    position: relative;
+  }
+
+  &__item {
+    width: 97%;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+    background-color: $color-white;
+  }
+
+  &__descr {
+    margin-top: 27px;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      left: 185px;
+      top: 50px;
+      width: 55px;
+      height: 39px;
+      background: url("../img/coation.png") no-repeat;
+    }
+  }
+
+  &__user-name {
+    margin-top: 15px;
+  }
+
+  &__stars {
+    margin-top: 14px;  
+  }
+  .slick-prev, .slick-next {
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -60px;
+    img {
+      width: 46px;
+      height: 46px;
+    }
+  }
+
+  .slick-next {
+    left: auto;
+    right: -40px;
+  }
+
+}
+
+
